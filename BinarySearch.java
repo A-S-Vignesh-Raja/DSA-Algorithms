@@ -14,7 +14,6 @@ public class BinarySearch {
 		int ans=binarysearch(arr,target);
 		System.out.println(ans);
 		
-
 	}
 	static int binarysearch(int[] arr, int target) {
 		int start=0;
@@ -33,7 +32,6 @@ public class BinarySearch {
 			}
 		}
 		return -1;
-		
 	}
 
 }
