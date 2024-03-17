@@ -17,8 +17,8 @@ public class CyclicSort {
 	static void Cyclicsort(int[] arr) {
 		int i=0;
 		while(i<arr.length) {
-			int correctindex=arr[i]-1; //range [1,n]
-			//int correctindex=arr[i]; range [0,n]
+			//int correctindex=arr[i]-1; //range [1,n]
+			int correctindex=arr[i]; range [0,n]
 			if(arr[i]!=arr[correctindex]) {
 				swap(arr,i,correctindex);
 			}
